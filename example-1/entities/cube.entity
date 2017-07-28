@@ -1,0 +1,17 @@
+{
+    "name": "cube",
+    "properties": [
+        "rigidbody",
+        "transform"
+    ],
+    "pipes": [
+        {
+            "source":"rigidbody.velocity",
+            "destination":"transform.velocity"
+        },
+        {
+            "source":"rigidbody.angularVelocity",
+            "destination":"transform.angularVelocity"
+        }
+    ]
+}

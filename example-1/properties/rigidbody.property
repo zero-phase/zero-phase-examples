@@ -1,0 +1,13 @@
+{
+    "name": "rigidbody",
+    "depth" : 0,
+    "script": "rigidbody-batch",
+    "ports": {
+        "force": "vector3",
+        "torque": "vector3"
+    },
+    "fields": {
+        "velocity": "vector3",
+        "angularVelocity": "vector3"
+    }
+}

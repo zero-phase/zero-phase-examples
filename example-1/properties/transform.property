@@ -1,0 +1,13 @@
+{
+    "name": "transform",
+    "depth" : 1,
+    "script": "transform-batch",
+    "ports": {
+        "velocity": "vector3",
+        "angularVelocity": "vector3"
+    },
+    "fields": {
+        "position": "vector3",
+        "rotation": "quaternion"
+    }
+}
